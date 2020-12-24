@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+.main {
+    display: flex;
+    text-align: center;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+.main__title {
+    margin: 40px;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 4vw;
+}
+  
+.main__name {
+    font-size: 6vw;
+    font-weight: 600;
+}
+
+/* =========== */
+
+.y2019__container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
