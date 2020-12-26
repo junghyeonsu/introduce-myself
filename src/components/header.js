@@ -1,24 +1,25 @@
 import React from 'react'
 import styled from 'styled-components';
+import RoomIcon from '@material-ui/icons/Room';
 
-const Header = styled.span`
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
-    font-size: 4vw;
-    margin: 40px;
-    font-family: 'Noto Serif KR', serif;
+const Container = styled.span`
+    font-size: 3.5vw;
+    margin: 40px 40px 0px 40px;
+    display: flex;
+    align-items: baseline;
 `;
 
 const Name = styled.span`
-    font-size: 6vw;
-    font-weight: 700;
+    color: #f76154;
 `;
 
-function header() {
+function Header() {
     return (
-        <Header>
-            제 이름은 <Name>정현수</Name> 입니다.
-        </Header>
+        <Container>
+            <RoomIcon style={{ fontSize: "3.5vw", color: "#f76154" }} />
+            <span>제 이름은 <Name>정현수</Name>입니다.</span>
+        </Container>
     )
 }
 
-export default header
+export default Header

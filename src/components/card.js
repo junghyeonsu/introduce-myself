@@ -1,28 +1,26 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const Card = styled.div`
-    border : 1px solid white;
-    border-radius : 10px;
-    padding : 4vw;
-    color : white;
-    background-color : rgb(17, 108, 245);
-    transition : 0.5s ease;
-    cursor : pointer;
+const Container = styled.div`
+    padding: 4vw;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-color: #f4a15a;
+    color: white;
 
     &:hover {
-        background-color : white;
-        color : black;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 `;
 
-function card({text}) {
+function Card({text}) {
     return (
-        <Card>
+        <Container>
             {text}
-        </Card>
+        </Container>
     )
 }
 
 
-export default card;
+export default Card;
