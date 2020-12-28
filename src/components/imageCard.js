@@ -21,7 +21,7 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-    object-fit: scale-down;
+    object-fit: contain;
     width: 100%;
     height: 100%;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -35,6 +35,7 @@ const Text = styled.p`
     transform: translate(-50%, -50%);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     opacity: 0;
+    text-transform: uppercase;
 `;
 
 function ImageCard({image, text}) {
