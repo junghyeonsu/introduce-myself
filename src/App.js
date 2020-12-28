@@ -1,9 +1,9 @@
 import './App.css';
-import Main from './pages/main';
-import Y2019 from './pages/Y2019';
-import Y2020 from './pages/Y2020';
-import Y2021 from './pages/Y2021';
-import { BrowserRouter,Route, Link,Switch } from "react-router-dom";
+import Main from './pages/main/main';
+import Y2019 from './pages/2019/Y2019';
+import Y2020 from './pages/2020/Y2020';
+import Y2021 from './pages/2021/Y2021';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import styled from 'styled-components'
 
 const Body = styled.div`

@@ -1,7 +1,7 @@
 import React from 'react'
-import Body from '../components/body'
-import YearHeader from '../components/yearHeader'
-import YearContent from '../components/yearContent'
+import Body from '../../components/body'
+import YearHeader from '../../components/yearHeader'
+import YearContent from '../../components/yearContent'
 
 
 function Y2019() {
