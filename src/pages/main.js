@@ -8,6 +8,7 @@ import Body from '../components/body'
 import ImageCard from '../components/imageCard'
 
 import ReactImg from '../images/react.png'
+import JavascriptImg from '../images/javascript.png'
 
 const Main = styled.div`
     display: flex;
@@ -33,9 +34,10 @@ function content1(){
 
 function content2(){
     return(
-        <div>
-            <ImageCard image={ReactImg} />
-        </div>
+        <CardContainer>
+            <ImageCard text={"React"} image={ReactImg} />
+            <ImageCard text={"Javascript"} image={JavascriptImg} />
+        </CardContainer>
     )
 }
 
