@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import LabelIcon from '@material-ui/icons/Label';
 
 const Body = styled.div`
-    margin : 60px 40px 0px 40px;
+    margin : 40px 40px 0px 40px;
     text-align: left;
 `;
 
@@ -13,14 +13,15 @@ const Title = styled.div`
 
 const Content = styled.div`
     font-size: 1.5vw;
+    font-weight: 200;
 `;
 
-function content({title, content}) {
+function content({title, children}) {
     return (
         <Body>
             <LabelIcon style={{ fontSize: "3vw", color: "#8dddc7" }} />
             <Title>{title}</Title>
-            <Content>{content}</Content>
+            <Content>{children}</Content>
         </Body>
     )
 }
