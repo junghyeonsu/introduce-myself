@@ -9,7 +9,6 @@ const Body = styled.div`
 
 const Title = styled.div`
     font-size: 3vw;
-    margin-bottom: 15px;
 `;
 
 const Content = styled.div`

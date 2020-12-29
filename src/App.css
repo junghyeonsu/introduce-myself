@@ -1,39 +1,3 @@
-.app__left__border {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  width: 5px;
-  background-color: rgb(17, 108, 245);
-}
-
-.app__right__border {
-  position: fixed;
-  right: 0;
-  top: 0;
-  height: 100vh;
-  width: 5px;
-  background-color: rgb(17, 108, 245);
-}
-
-.app__top__border {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 5px;
-  width: 100vw;
-  background-color: rgb(17, 108, 245);
-}
-
-.app__bottom__border {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 5px;
-  width: 100vw;
-  background-color: rgb(17, 108, 245);
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
 body {

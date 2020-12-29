@@ -15,7 +15,8 @@ const Container = styled.div`
     flex-direction: column;
     width: 50%;
     min-width: 450px;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding-bottom: 35px;
     background-color: white;
     animation: ${fadeIn} 1s ease;
     box-shadow: 7px 7px #505653;
